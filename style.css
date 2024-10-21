@@ -1,0 +1,22 @@
+@keyframes scaleCircle {
+      0% {
+        width: 0px;
+        height: 0px;
+        opacity: 1;
+      }
+      
+      100% {
+        width: 90px;
+        height: 90px;
+        opacity: 0;
+      }
+    }
+
+    /* Estilo para el círculo de carga */
+    .loading-circle {
+      width: 10px;
+      height: 10px;
+      background-color: rgb(255, 255, 255);
+      border-radius: 50%;
+      animation: scaleCircle 1.2s infinite ease-in-out;
+    }
